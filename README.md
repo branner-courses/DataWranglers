@@ -17,4 +17,6 @@ pip install --upgrade git+git://github.com/cython/cython@master
 python setup.py build --hdf5=/usr/local/Cellar/HDF5/1.8.13
 ```
 
+On the need for `hdf5`, see https://www.underworldproject.org/documentation/HDF5Download.html.
+
 [end]
