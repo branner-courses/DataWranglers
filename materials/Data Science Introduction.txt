@@ -1,0 +1,59 @@
+(1) What skills and techniques do I need to learn?:
+
+A description of basic data science skills:
+http://www.dataists.com/2010/09/a-taxonomy-of-data-science/
+
+A list of online courses and materials:
+http://hail-data.quora.com/How-to-acquire-the-Essential-Skill-Set-the-Self-Starter-way
+
+Another good list of data science materials:
+https://trello.com/b/rbpEfMld/data-science
+
+Data science competitions:
+Kaggle: https://www.kaggle.com/
+
+Current discussion:
+http://www.datatau.com/
+
+Textbooks:
+See my "Textbooks" folder for a handful of full copies of books you can use. For beginners with a comfortable grasp of college-level or advanced high school math, a good place to start is "James Witten ea Intro to Stat Learning - 2013." Witten et al. are professors who have developed some of today's popular data science techniques, so they know their stuff, but they aim for the minimum technical depth and breadth required for practitioners without getting too academic. 
+
+That said, I do not recommend that you read Witten cover to cover without also tackling real-world problems directly on a site like Kaggle (see Kaggle link above).
+
+
+(2) What software do I need?
+
+Some of the more popular software tools for data science are Python, R, Matlab, SAS, and of course Excel and SQL. If you're starting out with a modest programming ability or willingness to learn, I recommend that you start with R or Python. They're both well-regarded, widely used, and open source. 
+
+The choice between R and Python is much debated. R tends to be preferred by people with a statistics background who want a wide variety of options. Python tends to be preferred by people with a computer science background who come to data science from the perspective of "machine learning" and want a flexible programming language. If you are interested in complementing your existing (non-engineering) work with data science, for example if you are a journalist, I recommend starting with R. R is easy to pick up from scratch and allows you to rapidly generate powerful results. If you are interested in practicing data science as a primary element of your career, Python is probably the right first step. Python will allow you to learn good software development practices and data science simultaneously.
+
+As you advance in your data science practice, you will need to move comfortably between many languages and software tools (adding C++ and Java as well), so there is no wrong place to start.
+
+
+(2a) How do I get Python set up?:
+
+The easiest way to get Python up and running quickly for data science may be to download the Python distributions from Continuum Analytics or Enthought. I recommend Continuum's (free) solution, "Anaconda." The packages handle the installation of the open source components (Python, pandas, scikit-learn) you'll need.
+
+https://store.continuum.io/cshop/anaconda/
+
+As an alternative, it is not too difficult to install Python and the other packages you'll need directly.
+
+(2b) or... How to I get R set up?:
+
+You can find the instructions you need for R here: http://www.r-project.org/
+
+
+(3) I'd prefer to learn by doing. Where can I start?
+
+You can get started with this Coursera/Stanford class on machine learning. The course ends on September 14, but sign up and start with Lecture 1 anyway: https://www.coursera.org/course/ml
+
+The Coursera class uses Octave, an open source version of Matlab. Anything you learn in Octave will easily apply to R and Python, so that's fine.
+
+You can also dive into the deep end with this tutorial on Python for data science:  http://blog.yhathq.com/posts/data-science-in-python-tutorial.html
+
+Anaconda (see my notes above) will provide all of the tools you need for the "Tools Overview" of the tutorial. Ask for help from people at the Data Wranglers meetup to get over any gaps in the explanations in the tutorial!
+
+
+
+
+

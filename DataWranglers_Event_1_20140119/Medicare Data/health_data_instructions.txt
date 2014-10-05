@@ -1,0 +1,26 @@
+Challenge #1: Relating hospital fees to performance
+
+> How do fees for different treatments relate to performance? (Hopefully, better hospitals charge more, but perhaps some treatments are more indicative of overall performance than others.) 
+
+> Identify the best and worst hospitals in terms of value (low fees and high performance) controlling for the health of the population.
+
+> What factors identify poor value hospitals? 
+
+Our data includes (1) the performance of 3,000+ U.S. hospitals in terms of mortality and patient readmission for the treatment of a variety of conditions (heart attacks, pneumonia, etc.) (2) hospital fees and insurance payments by Medicare.
+
+Sources and descriptions of medical data:
+
+The essential files are available in a dropbox I've created here:
+
+https://www.dropbox.com/sh/iqulv6lb8pxzyzn/sJAoi7duVe
+
+All documentation and additional files are available in two locations:
+
+(1) http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index.html
+
+(2) https://data.medicare.gov/data/hospital-compare
+
+
+
+
+

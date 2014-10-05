@@ -1,0 +1,26 @@
+Challenge #2: Detecting insults in online comments
+
+Create a model to identify whether or not sentences are insulting using ~4,000 comments labeled insulting or not.
+
+What hours of the day are people most insulting online? Is there a pattern? 
+
+------
+
+This exercise was adapted from a Kaggle competition for a General Assembly Data Science class. It was intended to teach people to use Naive Bayes models - and you may want to take that approach. I have copied, with slight modification (and permission), the text of the class instructions here:
+
+The challenge is to detect when a comment from a conversation would be considered insulting to another participant in the conversation. The data consists of a label column followed by two attribute fields.
+
+insult_train.csv
+insult_test.csv
+
+Find the data here: https://www.dropbox.com/sh/iqulv6lb8pxzyzn/sJAoi7duVe
+
+This is a single-class classification problem. The label is either 0 meaning a neutral comment, or 1 meaning an insulting comment (neutral can be considered as not belonging to the insult class. Your predictions must be an integer.
+
+The first attribute is the time at which the comment was made. It is sometimes blank, meaning an accurate timestamp is not possible. It is in the form "YYYYMMDDhhmmss" and then the Z character. It is on a 24 hour clock and corresponds to the localtime at which the comment was originally made.
+
+The second attribute is the unicode-escaped text of the content, surrounded by double-quotes. The content is mostly english language comments, with some occasional formatting.
+
+Submit your predictions -0 or 1- in a csv format. Make sure that your submission has exactly 2000 entries.
+
+Any questions, let me know!

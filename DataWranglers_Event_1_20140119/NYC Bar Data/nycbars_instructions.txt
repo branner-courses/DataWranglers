@@ -1,0 +1,11 @@
+Challenge #3: Proximity and performance for NYC bars
+
+Use data on bars in NYC, their addresses, and their popularity to study how proximity to other bars affects performance, controlling for factors like population density and income in the neighborhood.
+
+Find the data here: https://www.dropbox.com/sh/iqulv6lb8pxzyzn/sJAoi7duVe
+
+The data should be self-explanatory. In order to identify the distances of bars from each other, your first challenge is to convert the bar addresses into latitude and longitude coordinates.
+
+Population density and income are available by zip code, but I have not added them to the data set yet! If you want to get fancy, NYC also provides lat/long coordinates for transit hubs.
+
+Please do not re-use this data outside our exercise today. Yelp does not support the long-term storage of their data.

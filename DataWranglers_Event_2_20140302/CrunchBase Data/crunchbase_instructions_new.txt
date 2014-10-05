@@ -1,0 +1,17 @@
+CrunchBase Data Challenge
+
+This study is based on data sources provided by CrunchBase. Similar to the airplane data set, the CrunchBase data provides an extraordinary number of opportunities to important questions.
+
+In the CrunchBase Data Folder, you will find two files aside from these instructions.
+
+"acquisitions_full.csv" contains data about companies acquired for over $5m
+
+"founders_with_birthdate.json" is a smaller file with data about the founders of company listed in the larger acquisitions_full.csv data set. This file only contains data on the subset of founders whose birthdays were provided by CrunchBase.
+
+1) Does proximity increase the amount of acquisitions? Create an input variable for proximity between the acquirer and acquired company? (moderate)
+
+2) What are the patterns in the size of acquisitions in the past year? What are the patterns in the quantities of acquisitions? For example: very small (>$50m), small ($75m - $150m), medium ($150 - $450m), large ($450m - $1b), and very large. (easy)
+
+3) How do entrepreneurs' educational backgrounds affect their success? (difficult)
+
+4) How does entrepreneurs' age influence their success? (difficult)

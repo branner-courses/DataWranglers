@@ -1,0 +1,50 @@
+NYCDW Event 3 - The Credit Risk Challenge
+
+--Background:
+
+The Lending Club is an online community where people ("borrowers") can request loans and others ("investors") can provide money for those loans. This system allows people in the general public to act like a traditional bank, making loans and receiving interest payments.
+
+One of the cool features of the Lending Club is that it makes the (anonymized) data about borrowers and their loan payments available to the public. This provides us with a fascinating opportunity to see if we can predict who will pay their loans in full and who will default. In terms of finance, we are evaluating the borrowers' "credit risk."
+
+Several startups, including the Lending Club, depend on their ability to do a better job predicting credit risk than our shoddy credit scores provide. Today, we'll see if we can do better than the Lending Club itself in assessing credit risk.
+
+In the Lending Club Data folder, you'll find five files.
+
+The data key:
+1) LCDataDictionary.xlsx or LCDataDictionary.pdf
+
+Three files contain the Lending Club's original borrower and loan payment histories:
+2) LoanStats2007to20011.csv
+3) LoanStats2012to2013.csv
+4) LoanStats2014.csv
+
+A file I have created that only contains data on 36-month loans from before 5/31/2011:
+5) loansOver.csv
+
+Because the Lending Club provides loans with a 3-year and 5-year term, we're still waiting to see whether many of the loans will be paid in full before they mature. I have provided "loansOver.csv" so that you can study only the definitive outcomes of 3-year loans provided before 5/31/2011 (which must have been paid off by 5/31/2014).
+
+--Challenges
+
+All challenges are rated easy, medium, or hard difficulty.
+
+1) How accurately can you predict whether or not someone will pay off their loans using features such as the amount of the loan, the interest rate on the loan, the borrower's income, the length of time they have spent with their current employer, and whether borrowers own, rent, or currently pay down a mortgage on their home? (medium)
+
+2a) Which reasons for getting loans make people most likely and least likely to pay them off (e.g. weddings, education, home improvement, debt consolidation...)? (easy)
+
+2b) How well do people's reasons for getting loans explain whether they will pay them off? (medium) 
+
+3) The Lending Club grades people based on how risky it considers their loans. Using the data they provide, see how much you can improve on the accuracy of their loan grades at predicting defaults. Which features in the data are most important? (hard)
+
+Note: The Lending Club sets the loan interest rate based on the borrower's loan grade and the requested loan amount. This creates some slight complications you'll have to consider. See more detail here: https://www.lendingclub.com/public/how-we-set-interest-rates.action
+
+4) Use people's written explanations for getting loans to predict whether they will pay them off. See the folder with the insulting comments exercise from the first NYC Data Wranglers event for hints about how to do this. (hard) 
+
+
+
+
+
+
+
+
+
+

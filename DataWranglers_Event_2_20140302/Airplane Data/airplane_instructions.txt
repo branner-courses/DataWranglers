@@ -1,0 +1,28 @@
+The Airplane Flight Challenge
+
+For this study, I have uploaded data on airplane flights provided by the Bureau of Transportation.  This is an extraordinary data set, and there are a lot of questions you can explore.
+
+In the Airplane Data folder, you will find three files:
+
+airplane_2008.csv this is the main data set, a 689 MB file 
+carriers.csv provides a key to the codes for the carriers in the main file
+plane_data.csv provides a key to the codes for the airplane identifiers in the main file
+
+This airplane flight data set is also available here (for 1987 through 2008): http://stat-computing.org/dataexpo/2009/the-data.html
+
+You will can find additional information about the data set here:
+http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time
+
+Challenges
+
+1) Study flight delays by day of week and season (spring, summer, winter, fall, holidays). What is the worst time to fly? (easy)
+
+2) Are planes by a particular manufacturer - Boeing, Airbus, etc. - more likely to be delayed? Can you figure out why? (easy)
+
+2) Cluster airplane carriers characteristics in the data set. Now do a model of flight delays using these groups of carriers as a predictor. Also, among the traditional commercial airline carriers, who are the best performers? (moderate)
+
+To do this analysis properly, you might want to control for the airports and flight paths the carriers use. This is a difficult problem!
+
+3) Combine flight data with weather data. Develop a model of how weather influences flight delays. Are certain carriers better at managing bad weather? (difficult)
+
+Extra credit: Study the influence of weather on flights using all of the data from 1987 through 2008. Is the affect of weather on delays getting better or worse. This is a serious Big Data challenge.

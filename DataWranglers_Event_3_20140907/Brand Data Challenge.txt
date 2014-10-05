@@ -1,0 +1,28 @@
+NYCDW Event 3 - The Brand Data Challenge
+
+This dataset comes from a survey of 4,769 people about their perceptions of companies' brands. For instance, the brands under "M" include Macy's, MTV, Microsoft, MetLife, and M&M, and the questions about brands include how familiar people are with these companies/products and how they feel about them (e.g. If BRAND were a person, would you consider it trendy?").
+
+These data were collected by three business school professors, Mitchell Lovett, Renana Peres, and Ron Shachar and described in the July-August edition of Marketing Science, one of the top journals in the field of marketing. You can read more about it in their article, "A dataset of brands and their characteristics," Marketing Science, Volume 33 Issue 4, July-August 2014, pp. 609-617. I have included an early, rough pdf version of the article in the Brand Data folder.
+
+To understand the data in the spreadsheets, you will probably want to refer to the BrandDataKey as well as the Lovett article. The article describes features in the data set which are not in the key. You can also get more information about a column of data by hovering your mouse over the BAV column names in the Excel sheet.
+
+Challenges:
+
+These challenges all use "Brand_Characteristics_Oct_18_2013.xlsx."
+
+1)  Let's look at how people's familiarity with a brand influences perceptions of the brand. (Yes, "Does familiarity breed contempt?")
+
+Using factors such as Q2 (importance), Q3 (thought given to the brand), Q5 familiarity, and preference for the brand (Total_prefer_pct), predict "Excitement", and "Competence."
+(medium)
+
+2) Does familiarity have a different effect on brands in different brand categories, such as sports, media, beverages? (medium)
+
+3) Using these measures of excitement, competence, etc., what are the most liked and hated brands within a category that interests you, such as beverages? (easy)
+
+4) Which brand categories have the greatest dispersion their measures? 
+
+5) How do the age of a brand and its newness affect liking and satisfaction? (medium)
+
+6) Let's cluster brands by the survey factors: Involvement, Familiarity, Complexity, Perceived Risk, Excitement, and Competence. What clusters do you find? How do these clusters relate to the brand categories? Are there companies with split personalities, that behave like they're in a cluster that tends to be occupied by a company in a different brand category? (medium)
+
+7) Using the survey measures, do you find any other underlying dimensions by which people think about brands? (hard)

@@ -1,0 +1,37 @@
+NYCDW Event 4 - The Million Song Challenge
+
+--Background:
+
+The Echo Nest describes itself as a "music intelligence" platform which "synthesizes billions of data points" to provide businesses with insights about musicians and their tracks. The data we're working with today comes from a cooperation between The Echo Next and LabROSA at Columbia University to provide a public "Million Song" dataset in 2011. It contains
+
+--Files in the Event 4 folder
+
+1) "Bertin-Mahieux ea Million Songs 2011.pdf" contains a paper describing the data set.
+
+The full identification of the paper is:
+
+Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. 
+The Million Song Dataset. In Proceedings of the 12th International Society
+for Music Information Retrieval Conference (ISMIR 2011), 2011.
+
+2) "data_key.pdf" describes the data in the millions_songs.csv and songs_subset.csv files.
+
+3) "Million Song Challenge.txt" is this file.
+
+3) "million_songs.csv" contains data on a song's title, key, mode, tempo, duration, and "danceability" as well as the year that recording was produced
+
+4) "songs_subset.csv" contains a subset (consisting of 515,575 songs) for which the year is a non-null value.
+
+--Challenges
+
+All challenges are rated easy, medium, or hard difficulty.
+
+(Description to be completed)
+...
+
+There are two approaches to today's challenges. For data scientists who want to tackle the full 500 GB dataset, you can get the data from AWS here: 
+
+http://aws.amazon.com/datasets/6468931156960467
+
+The full data set identifies qualities of beats per bar and timbre per segment that allow an in-depth analysis but also make the dataset reasonably large.
+
